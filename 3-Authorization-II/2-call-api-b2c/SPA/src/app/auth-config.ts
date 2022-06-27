@@ -22,10 +22,10 @@
      },
      authorities: {
          signUpSignIn: {
-             authority: "https://SpindoxTestB2C.onmicrosoft.com/SpindoxTestB2C.onmicrosoft.com/B2C_1_signupsigninflow1",
+             authority: "https://SpindoxTestB2C.b2clogin.com/SpindoxTestB2C.onmicrosoft.com/B2C_1_signupsigninflow1",
          },
          editProfile: {
-             authority: "https://SpindoxTestB2C.onmicrosoft.com/SpindoxTestB2C.onmicrosoft.com/B2C_1_editprofileflow1"
+             authority: "https://SpindoxTestB2C.b2clogin.com/SpindoxTestB2C.onmicrosoft.com/B2C_1_editprofileflow1"
          }
      },
      authorityDomain: "SpindoxTestB2C.onmicrosoft.com"
