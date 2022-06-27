@@ -17,18 +17,18 @@
   */
  export const b2cPolicies = {
      names: {
-         signUpSignIn: "b2c_1_susi_reset_v2",
-         editProfile: "b2c_1_edit_profile_v2"
+         signUpSignIn: "B2C_1_signupsigninflow1",
+         editProfile: "B2C_1_editprofileflow1"
      },
      authorities: {
          signUpSignIn: {
-             authority: "https://fabrikamb2c.b2clogin.com/fabrikamb2c.onmicrosoft.com/b2c_1_susi_reset_v2",
+             authority: "https://SpindoxTestB2C.onmicrosoft.com/SpindoxTestB2C.onmicrosoft.com/B2C_1_signupsigninflow1",
          },
          editProfile: {
-             authority: "https://fabrikamb2c.b2clogin.com/fabrikamb2c.onmicrosoft.com/b2c_1_edit_profile_v2"
+             authority: "https://SpindoxTestB2C.onmicrosoft.com/SpindoxTestB2C.onmicrosoft.com/B2C_1_editprofileflow1"
          }
      },
-     authorityDomain: "fabrikamb2c.b2clogin.com"
+     authorityDomain: "SpindoxTestB2C.onmicrosoft.com"
  };
  
  /**
@@ -38,7 +38,7 @@
   */
   export const msalConfig: Configuration = {
      auth: {
-         clientId: '9067c884-9fa6-414f-9aa4-a565b1cb46be', // This is the ONLY mandatory field that you need to supply.
+         clientId: '4714907e-7868-487e-8c83-37afb1fdab25', // This is the ONLY mandatory field that you need to supply.
          authority: b2cPolicies.authorities.signUpSignIn.authority, // Defaults to "https://login.microsoftonline.com/common"
          knownAuthorities: [b2cPolicies.authorityDomain], // Mark your B2C tenant's domain as trusted.
          redirectUri: '/', // Points to window.location.origin. You must register this URI on Azure portal/App Registration.
