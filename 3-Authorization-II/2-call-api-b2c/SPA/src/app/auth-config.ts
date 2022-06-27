@@ -28,7 +28,7 @@
              authority: "https://SpindoxTestB2C.b2clogin.com/SpindoxTestB2C.onmicrosoft.com/B2C_1_editprofileflow1"
          }
      },
-     authorityDomain: "SpindoxTestB2C.onmicrosoft.com"
+     authorityDomain: "SpindoxTestB2C.b2clogin.com"
  };
  
  /**
